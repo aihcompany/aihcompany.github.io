@@ -5,19 +5,19 @@
   });
 
   // Hero slider functionality
-  const slides = document.querySelectorAll('.hero-slide');
-  let currentSlide = 0;
+  // const slides = document.querySelectorAll('.hero-slide');
+  // let currentSlide = 0;
 
-  function showSlide(index) {
-    slides.forEach((slide, i) => {
-      slide.classList.toggle('active', i === index);
-    });
-  }
+  // function showSlide(index) {
+  //   slides.forEach((slide, i) => {
+  //     slide.classList.toggle('active', i === index);
+  //   });
+  // }
 
-  setInterval(() => {
-    currentSlide = (currentSlide + 1) % slides.length;
-    showSlide(currentSlide);
-  }, 6000);
+  // setInterval(() => {
+  //   currentSlide = (currentSlide + 1) % slides.length;
+  //   showSlide(currentSlide);
+  // }, 6000);
 
   // Contact form success message
   const form = document.getElementById('contactForm');
@@ -47,3 +47,33 @@
       }
     });
   });
+
+
+
+
+
+
+
+
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const slides = document.querySelectorAll(".hero-slide");
+  let currentSlide = 0;
+
+  // Lazy load images
+  slides.forEach(slide => {
+    const img = new Image();
+    const url = slide.style.backgroundImage.replace('url("','').replace('")','');
+    img.src = url;
+  });
+
+  setInterval(() => {
+    slides[currentSlide].classList.remove("active");
+    currentSlide = (currentSlide + 1) % slides.length;
+    slides[currentSlide].classList.add("active");
+  }, 6000); // Every 6 seconds
+});
