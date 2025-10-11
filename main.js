@@ -1,23 +1,16 @@
+// naver scrooll color set
+window.addEventListener("scroll", () => {
+  const navbar = document.querySelector(".navbar");
+  navbar.classList.toggle("scrolled", window.scrollY > 50);
+});
+
+  
   // Initialize AOS
   AOS.init({
     duration: 1000,
     once: true,
   });
 
-  // Hero slider functionality
-  // const slides = document.querySelectorAll('.hero-slide');
-  // let currentSlide = 0;
-
-  // function showSlide(index) {
-  //   slides.forEach((slide, i) => {
-  //     slide.classList.toggle('active', i === index);
-  //   });
-  // }
-
-  // setInterval(() => {
-  //   currentSlide = (currentSlide + 1) % slides.length;
-  //   showSlide(currentSlide);
-  // }, 6000);
 
   // Contact form success message
   const form = document.getElementById('contactForm');
