@@ -1,51 +1,60 @@
-    body {
-      scroll-behavior: smooth;
-      transition: background-color 0.3s, color 0.3s;
-    }
+html {
+  scroll-padding-top: 70px; /* Adjust to your navbar height */
+  scroll-behavior: smooth;  /* Smooth scrolling */
+}
 
+    
 
-    .navbar {
-      background-color: rgb(0, 0, 255);
-      transition: background-color 0.3s ease;
-      backdrop-filter: blur(6px);
-    }
+body {
+scroll-behavior: smooth;
+transition: background-color 0.3s, color 0.3s;
+}
+section {
+  scroll-margin-top: 70px; /* Adjust according to navbar height */
+}
 
-    .navbar.scrolled {
-      background-color: rgba(0, 0, 255, 0.69);
-    }
+.navbar {
+background-color: rgb(0, 0, 255);
+transition: background-color 0.3s ease;
+backdrop-filter: blur(6px);
+}
 
-     /* Dark mode styles */
-   body.dark-mode {
-      background-color: #121212;
-      /* color: #ddd; */
-    }
-    body.dark-mode .bg-light {
-      background-color: #1e1e1e !important;
-    }
-    body.dark-mode .card {
-      background-color: #2c2c2c;
-      color: #ddd;
-    }
-    body.dark-mode footer {
-      background-color: #111;
-      color: #999;
-    }
-    body.dark-mode .navbar {
-      background-color: #1a1a1a !important;
-    }
+.navbar.scrolled {
+background-color: rgba(0, 0, 255, 0.69);
+}
 
-    /* Navbar sticky & custom */
-    .navbar {
-      position: sticky;
-      top: 0;
-      z-index: 1030;
-    }
+/* Dark mode styles */
+body.dark-mode {
+background-color: #121212;
+/* color: #ddd; */
+}
+body.dark-mode .bg-light {
+background-color: #1e1e1e !important;
+}
+body.dark-mode .card {
+background-color: #2c2c2c;
+color: #ddd;
+}
+body.dark-mode footer {
+background-color: #111;
+color: #999;
+}
+body.dark-mode .navbar {
+background-color: #1a1a1a !important;
+}
 
-    /* Navbar brand logo */
-    .navbar-brand img {
-      height: 40px;
-      margin-right: 8px;
-    }
+/* Navbar sticky & custom */
+.navbar {
+position: sticky;
+top: 0;
+z-index: 1030;
+}
+
+/* Navbar brand logo */
+.navbar-brand img {
+height: 40px;
+margin-right: 8px;
+}
 
 
     /* Hero Section */

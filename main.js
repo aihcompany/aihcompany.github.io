@@ -42,40 +42,6 @@ window.addEventListener("scroll", () => {
   });
 
 
-
-  // test Project Section
-
-// const projects = [
-//   {
-//     title: "AI-Powered Chatbot",
-//     description: "Developed a chatbot solution for customer support automation.",
-//     images: [
-//       "https://i.postimg.cc/LXdkp4cd/f-INALe-XPORTg-IG-1.png",
-//       "https://i.postimg.cc/PfSLbrSP/Beige-Floral-Phone-Mockup-User-Review-5-Stars-Twitter-Post-3.png",
-//       "https://i.postimg.cc/x881pMtw/White-and-Green-Modern-Business-Trend-You-Tube-Thumbnail-1.png"
-//     ]
-//   },
-//   {
-//     title: "Big Data Analytics Platform",
-//     description: "Built a platform for real-time data processing and insights.",
-//     images: [
-//       "https://i.postimg.cc/LXdkp4cd/f-INALe-XPORTg-IG-1.png",
-//       "https://i.postimg.cc/PfSLbrSP/Beige-Floral-Phone-Mockup-User-Review-5-Stars-Twitter-Post-3.png",
-//       "https://i.postimg.cc/x881pMtw/White-and-Green-Modern-Business-Trend-You-Tube-Thumbnail-1.png"
-//     ]
-//   },
-//   {
-//     title: "ML Model Deployment",
-//     description: "Deployed machine learning models for predictive analytics.",
-//     images: [
-//       "https://i.postimg.cc/LXdkp4cd/f-INALe-XPORTg-IG-1.png",
-//       "https://i.postimg.cc/PfSLbrSP/Beige-Floral-Phone-Mockup-User-Review-5-Stars-Twitter-Post-3.png",
-//       "https://i.postimg.cc/x881pMtw/White-and-Green-Modern-Business-Trend-You-Tube-Thumbnail-1.png"
-//     ]
-//   }
-// ];
-
-
 // Projects Array
 const projects = [
   {
@@ -90,6 +56,33 @@ const projects = [
   {
     title: "Big Data Analytics Platform",
     description: "Built a platform for real-time data processing and insights.",
+    images: [
+      "https://i.postimg.cc/LXdkp4cd/f-INALe-XPORTg-IG-1.png",
+      "https://i.postimg.cc/PfSLbrSP/Beige-Floral-Phone-Mockup-User-Review-5-Stars-Twitter-Post-3.png",
+      "https://i.postimg.cc/x881pMtw/White-and-Green-Modern-Business-Trend-You-Tube-Thumbnail-1.png"
+    ]
+  },
+  {
+    title: "ML Model Deployment",
+    description: "Deployed machine learning models for predictive analytics.",
+    images: [
+      "https://i.postimg.cc/LXdkp4cd/f-INALe-XPORTg-IG-1.png",
+      "https://i.postimg.cc/PfSLbrSP/Beige-Floral-Phone-Mockup-User-Review-5-Stars-Twitter-Post-3.png",
+      "https://i.postimg.cc/x881pMtw/White-and-Green-Modern-Business-Trend-You-Tube-Thumbnail-1.png"
+    ]
+  },
+  {
+    title: "ML Model Deployment",
+    description: "Deployed machine learning models for predictive analytics.",
+    images: [
+      "https://i.postimg.cc/LXdkp4cd/f-INALe-XPORTg-IG-1.png",
+      "https://i.postimg.cc/PfSLbrSP/Beige-Floral-Phone-Mockup-User-Review-5-Stars-Twitter-Post-3.png",
+      "https://i.postimg.cc/x881pMtw/White-and-Green-Modern-Business-Trend-You-Tube-Thumbnail-1.png"
+    ]
+  },
+  {
+    title: "ML Model Deployment",
+    description: "Deployed machine learning models for predictive analytics.",
     images: [
       "https://i.postimg.cc/LXdkp4cd/f-INALe-XPORTg-IG-1.png",
       "https://i.postimg.cc/PfSLbrSP/Beige-Floral-Phone-Mockup-User-Review-5-Stars-Twitter-Post-3.png",
@@ -163,18 +156,7 @@ document.querySelectorAll('.carousel').forEach(carousel => {
 });
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+// hero slide 
 document.addEventListener("DOMContentLoaded", function () {
   const slides = document.querySelectorAll(".hero-slide");
   let currentSlide = 0;
