@@ -62,7 +62,7 @@ const projects = [
       "https://threestarambulance.com/uploads/1761809753_9597.jpg",
       "https://threestarambulance.com/uploads/1761809803_1587.jpg",
       "https://threestarambulance.com/uploads/1761809838_5634.jpg",
-      " https://threestarambulance.com/uploads/1761809903_1064.jpg",
+      "https://threestarambulance.com/uploads/1761809903_1064.jpg",
       "https://threestarambulance.com/uploads/1761809983_9056.jpg",
       "https://threestarambulance.com/uploads/1761810051_1394.jpg",
       "https://threestarambulance.com/uploads/1761810083_9884.jpg",
