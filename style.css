@@ -97,14 +97,7 @@ margin-right: 8px;
   min-height: 100vh;
 }
 
-@media (max-width: 768px) {
-  .hero-content h1, .hero-content h2 {
-    font-size: 1.8rem;
-  }
-  .hero-content p {
-    font-size: 1rem;
-  }
-}
+
 
 
 
@@ -151,6 +144,12 @@ margin-right: 8px;
     /* Project Section */
     .card-img-top img {
       transition: transform 0.5s ease;
+    }
+    .card .carousel-item img {
+      width: 100%;
+      height: 230px;       
+      object-fit: cover;  
+      border-radius: 8px; 
     }
 
     .card:hover .carousel-item img {
@@ -272,6 +271,20 @@ margin-right: 8px;
 
 
 
+/* Responsive Section */
+@media (max-width: 768px) {
+  .hero-content h1, .hero-content h2 {
+    font-size: 1.8rem;
+  }
+  .hero-content p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .card .carousel-item img {
+    height: 180px;
+  }
+}
 
 
 
