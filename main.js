@@ -71,7 +71,7 @@ const projects = [
     ]
   },
   {
-    title: "ML Model Deployment",
+    title: "yment",
     description: "Deployed machine learning models for predictive analytics.",
     images: [
       "https://i.postimg.cc/LXdkp4cd/f-INALe-XPORTg-IG-1.png",
