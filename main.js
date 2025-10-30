@@ -54,7 +54,7 @@ const projects = [
     ]
   },
   {
-    title: "Big Data Analytics Platform",
+    title: "Modern eCommerce apps",
     description: "Built a platform for real-time data processing and insights.",
     images: [
       "https://threestarambulance.com/uploads/1761808368_8606.jpg",
