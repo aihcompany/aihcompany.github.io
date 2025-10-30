@@ -57,7 +57,7 @@ const projects = [
     title: "Big Data Analytics Platform",
     description: "Built a platform for real-time data processing and insights.",
     images: [
-      "https://i.postimg.cc/LXdkp4cd/f-INALe-XPORTg-IG-1.png",
+      "https://threestarambulance.com/uploads/1761808368_8606.jpg",
       "https://i.postimg.cc/PfSLbrSP/Beige-Floral-Phone-Mockup-User-Review-5-Stars-Twitter-Post-3.png",
       "https://i.postimg.cc/x881pMtw/White-and-Green-Modern-Business-Trend-You-Tube-Thumbnail-1.png"
     ]
