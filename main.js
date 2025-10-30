@@ -55,11 +55,19 @@ const projects = [
   },
   {
     title: "Modern eCommerce apps",
-    description: "Built a platform for real-time data processing and insights.",
+    description: "A modern eCommerce app featuring elegant design, real-time database, secure payment methods, and personalized user profiles for a seamless shopping experience.",
     images: [
       "https://threestarambulance.com/uploads/1761808368_8606.jpg",
-      "https://i.postimg.cc/PfSLbrSP/Beige-Floral-Phone-Mockup-User-Review-5-Stars-Twitter-Post-3.png",
-      "https://i.postimg.cc/x881pMtw/White-and-Green-Modern-Business-Trend-You-Tube-Thumbnail-1.png"
+      "https://threestarambulance.com/uploads/1761809685_1314.jpg",
+      "https://threestarambulance.com/uploads/1761809753_9597.jpg",
+      "https://threestarambulance.com/uploads/1761809803_1587.jpg",
+      "https://threestarambulance.com/uploads/1761809838_5634.jpg",
+      " https://threestarambulance.com/uploads/1761809903_1064.jpg",
+      "https://threestarambulance.com/uploads/1761809983_9056.jpg",
+      "https://threestarambulance.com/uploads/1761810051_1394.jpg",
+      "https://threestarambulance.com/uploads/1761810083_9884.jpg",
+      "https://threestarambulance.com/uploads/1761810135_3136.jpg",
+    
     ]
   },
   {
