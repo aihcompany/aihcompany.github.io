@@ -57,7 +57,6 @@ const projects = [
     title: "Modern eCommerce apps",
     description: "A modern eCommerce app featuring elegant design, real-time database, secure payment methods, and personalized user profiles for a seamless shopping experience.",
     images: [
-<<<<<<< HEAD
       "https://threestarambulance.com/uploads/1761808368_8606.jpg",
       "https://threestarambulance.com/uploads/1761809685_1314.jpg",
       "https://threestarambulance.com/uploads/1761809753_9597.jpg",
@@ -68,12 +67,9 @@ const projects = [
       "https://threestarambulance.com/uploads/1761810051_1394.jpg",
       "https://threestarambulance.com/uploads/1761810083_9884.jpg",
       "https://threestarambulance.com/uploads/1761810135_3136.jpg",
-    
-=======
       "https://i.postimg.cc/59ggQQTJ/1761809803-1587.jpg",
       "https://i.postimg.cc/yxRSP5jr/1761809838-5634.jpg",
       "https://i.postimg.cc/2ShBvP6g/1761809983-9056.jpg"
->>>>>>> 3b14d0b (Code Update)
     ]
   },
   {
