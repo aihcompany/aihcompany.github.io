@@ -125,6 +125,9 @@
       <a href="#portfolio" class="btn btn-outline-light btn-lg">View Work</a>
     </div>
   </div>
+
+
+
 </section >
 
 
@@ -141,7 +144,7 @@
   <div class="popup-content">
     <h2>Welcome to <span style="color:#007bff;">AIH Company</span>!</h2>
     <p>We provide advanced AI & Tech Solutions to power your business.</p>
-    <button id="enterSiteBtn">Enter Website</button>
+    <!-- <button id="enterSiteBtn">Enter Website</button> -->
   </div>
 </div>
 
@@ -223,24 +226,11 @@
 const popup = document.getElementById("welcomePopup");
   const enterBtn = document.getElementById("enterSiteBtn");
 
-  enterBtn.addEventListener("click", function() {
-    // নতুন ওয়েবসাইটে যাবে
-  window.location.replace("https://aihcompany.github.io/");
-  });
-
-  // ⛔ Back বাটন কাজ করবে না
-  history.pushState(null, "", location.href);
-  window.onpopstate = function () {
-    history.pushState(null, "", location.href);
-  };
-
-</script>
+  // enterBtn.addEventListener("click", function() {
+  // window.location.replace("https://aihcompany.threestarambulance.com/");
+  // });
 
 
-
-
-
-<script>
   // back button disable
   history.pushState(null, "", location.href);
   window.onpopstate = function () {
@@ -249,7 +239,7 @@ const popup = document.getElementById("welcomePopup");
 
   // redirect after 2s
   setTimeout(() => {
-    window.location.replace("https://aihcompany.github.io/");
+    window.location.replace("https://aihcompany.threestarambulance.com/");
   }, 2000);
 </script>
 
