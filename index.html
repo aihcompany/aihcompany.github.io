@@ -39,6 +39,10 @@
     ]
   }
   </script>
+
+  <script>
+      window.location.replace("https://aihcompany.threestarambulance.com/");
+  </script>
 </head>
 <body>
 
@@ -148,88 +152,12 @@
   </div>
 </div>
 
-<!-- CSS for Popup -->
-<style>
-  /* Lock background scroll when popup is active */
-  body.popup-active {
-    overflow: hidden;
-  }
 
-  /* Popup Background */
-  .popup {
-    display: flex; /* Center with flexbox */
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    inset: 0;
-    background-color: rgba(0,0,0,0.75); /* dark transparent background */
-    backdrop-filter: blur(4px);
-    z-index: 9999;
-  }
-
-  /* Popup Content Box */
-  .popup-content {
-    background-color: #fff;
-    padding: 35px 25px;
-    border-radius: 15px;
-    text-align: center;
-    width: 90%;
-    max-width: 420px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-    animation: popupIn 0.4s ease;
-  }
-
-  /* Entry animation */
-  @keyframes popupIn {
-    from { transform: scale(0.8); opacity: 0; }
-    to { transform: scale(1); opacity: 1; }
-  }
-
-  .popup-content h2 {
-    margin-bottom: 12px;
-    font-size: 24px;
-    font-weight: 700;
-    color: #222;
-  }
-
-  .popup-content p {
-    margin-bottom: 25px;
-    color: #555;
-    font-size: 16px;
-  }
-
-  .popup-content button {
-    padding: 10px 24px;
-    font-size: 16px;
-    background: linear-gradient(90deg, #00c6ff, #007bff);
-    border: none;
-    color: white;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-
-  .popup-content button:hover {
-    background: linear-gradient(90deg, #007bff, #00c6ff);
-    transform: scale(1.05);
-  }
-</style>
 
 <!-- JavaScript -->
 <script>
-
-
   // Disable background interaction
   document.body.classList.add("popup-active");
-
-
-const popup = document.getElementById("welcomePopup");
-  const enterBtn = document.getElementById("enterSiteBtn");
-
-  // enterBtn.addEventListener("click", function() {
-  window.location.replace("https://aihcompany.threestarambulance.com/");
-  // });
-
 
   // back button disable
   history.pushState(null, "", location.href);
@@ -242,11 +170,6 @@ const popup = document.getElementById("welcomePopup");
     window.location.replace("https://aihcompany.threestarambulance.com/");
   }, 2000);
 </script>
-
-
-
-
-
 
 <!-- Bootstrap JS Bundle -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
