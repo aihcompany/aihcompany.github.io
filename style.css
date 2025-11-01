@@ -332,30 +332,10 @@ margin-right: 8px;
 
     /* Team Member Section */
 
-.team-card {
-    border-radius: 15px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  .team-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-  }
 
-  .team-photo {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    transition: transform 0.5s ease;
-  }
-  .team-card:hover .team-photo {
-    transform: scale(1.1);
-  }
 
-  .team-img {
-    position: relative;
-    width: 200px;
-    height: 200px;
-  }
+
+
 
   .overlay {
     position: absolute;
@@ -365,65 +345,8 @@ margin-right: 8px;
     opacity: 0;
     transition: opacity 0.4s ease;
   }
-  .team-card:hover .overlay {
-    opacity: 1;
-  }
 
-  .social-icons a {
-    color: #fff;
-    font-size: 1.3rem;
-    margin: 0 8px;
-    transition: color 0.3s;
-  }
-  .social-icons a:hover {
-    color: #00b4d8;
-  }
 
-    /* Footer social icons */
-    /* footer{
-      background-color: red;
-    } */
-    footer a {
-      color: #000000;
-      transition: color 0.3s ease;
-    }
-    footer a:hover {
-      color: #0d6efd;
-    }
-
-    /* FAQ section */
-    .faq-item {
-      margin-bottom: 1rem;
-      border-bottom: 1px solid #ddd;
-      padding-bottom: 0.5rem;
-    }
-    .faq-question {
-      cursor: pointer;
-      font-weight: 600;
-      position: relative;
-      padding-right: 25px;
-    }
-    .faq-question::after {
-      content: "\f078"; /* FontAwesome chevron-down */
-      font-family: "Bootstrap Icons";
-      position: absolute;
-      right: 0;
-      top: 0;
-      font-size: 1.2rem;
-      transition: transform 0.3s ease;
-      color: #0d6efd;
-    }
-    .faq-question.active::after {
-      transform: rotate(180deg);
-    }
-    .faq-answer {
-      display: none;
-      padding-left: 1rem;
-      color: #555;
-    }
-    .faq-answer.active {
-      display: block;
-    }
 
     /* Dark mode toggle button */
     #darkModeToggle {
@@ -452,11 +375,7 @@ margin-right: 8px;
     font-size: 1rem;
   }
 }
-@media (max-width: 768px) {
-  .card .carousel-item img {
-    height: 180px;
-  }
-}
+
 
 
 
