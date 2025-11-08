@@ -1,5 +1,6 @@
-# AHI Company
+# AIH Company
 
 Visit our official website 👉 [https://aihcompany.github.io](https://aihcompany.github.io)
 
-AHI Company — Innovative Software & AI Solutions Provider.
+AIH Company — Innovative Software & AI Solutions Provider.
+
